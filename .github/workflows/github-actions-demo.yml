@@ -17,8 +17,8 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: exit
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - run: exit
       - run: cat output.txt
