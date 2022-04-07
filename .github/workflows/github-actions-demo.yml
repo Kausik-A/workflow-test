@@ -20,5 +20,5 @@ jobs:
       - run: exit
       - name: List files in the repository
         run: |
-          ls ${{ github.workspace }}
+          ls 
       - run: cat output.txt
